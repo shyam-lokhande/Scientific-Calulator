@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Assignment3.js" defer></script><!--source of java script given -->
+    <!--style tag for styling the text-->
+     <style> 
+        .preface{
+            display: flex;/*display as flex*/
+            flex-direction: row;/*given the direction of flex as row*/
+            justify-content: center;/*justified the content at center*/
+            align-items: center;/*aligned items at center*/
+            padding-top: 100px;/*given the padding of given value*/
+            background-color: #dde1e7;
+            padding-bottom: 300px;
+        }
+        .container{
+            width: 300px;/*width of the container is given*/
+            height: 300px;/*height of the container is given*/
+            display: flex;/*display as flex*/
+            flex-direction: row;/*given the direction of flex as row*/
+            justify-content: center;/*justified the content at center*/
+            align-items: center;/*aligned items at center*/
+            border-radius: 50px;/*given the border radius*/
+            background-color: #dde1e7;/*given the background colour to the container*/
+           box-shadow: 5px 5px 5px #000;/*given the box shdow,first shows width,second is height, third is blur and the colour*/
+        }
+        .line{
+            padding-top: 10px;/*given the padding of given value at top*/
+            padding-bottom: 10px;/*given the padding of given value from bottom*/
+            align-items: center;/*aligned items at center*/
+            text-align: center;/*text aligned at center*/
+           
+        }
+        .line1{
+            padding-left: 10px;/*given the padding of given value from left*/
+            padding-right: 10px;/*given the padding of given value from right*/
+            padding-top: 10px;/*given the padding of given value from top*/
+            display: flex;/*display as flex*/
+            justify-content: center;/*justified the content at center*/
+            align-items: center;/*aligned items at center*/
+            text-align: center;/*text aligned at center*/
+        }
+        input{
+            border-radius: 10px;/*given the radios to border*/
+            text-align: center;/*text aligned at center*/
+            align-items: center;/*aligned items at center*/
+            background-color: #dde1e7;/*background colour is given*/
+            cursor: pointer;/*cursor changes to pointer after taking on it*/
+            padding-right: 5px;/*given the padding of given value at right side*/
+            box-shadow: 2px 2px  #000;/*given the box shdow,first shows width,second is height, third is blur and the colour*/
+        }
+        .container:hover{
+            background-color: rgba(156, 161, 153, 0.788);/*given the background colour to the container*/
+            box-shadow: inset 5px 3px  #000;/*given the box shdow,first shows width,second is height, third is blur and the colour*/
+            padding-right: 5px;/*given the padding of given value from right*/
+            padding-left: 5px;/*given the padding of given value from left*/
+        }
+        input:hover{
+            background-color: rgba(189, 156, 106, 0.555);/*given the background colour to the container*/
+            box-shadow: inset 5px 3px  #000;/*given the box shdow,first shows width,second is height, third is blur and the colour*/
+            padding-right: 5px;/*given the padding of given value from right*/
+            padding-left: 5px;/*given the padding of given value from left*/
+            
+        }
+        .button{
+            padding-left: 5px;/*given the padding of given value from left*/
+            padding-right: 5px;/*given the padding of given value from right*/
+        }
+       
+    </style>
+    <title>Scientific Calculator</title><!--title for the document-->
+</head>
+<body><div class="preface"><!--given the class styling of preface class-->
+    <div class="container"><!--declared the class as container-->
+        <div class="box"><!--declared the class as box-->
+            <div class="line"><!--declared class line-->
+                <h3><u>Scientific Calculator</u></h3><!--Written the text as heading of size h3-->
+            </div>
+            <div class="line1"><!--declared class-->
+                <input type="text" id="i1" placeholder="Enter value"><!--taken the input as type text and given the placeholder-->
+            </div>
+            <div class="line1">
+                <div class="button"><!--declared class as button-->
+                
+                    <input type="button" value="sin"  onclick="sin()"><!--input as of type button with vale given as sin and onclick value for java script-->
+                </div>
+                <div class="button"><!--declared class as button-->
+                    <input type="button" value="cos" onclick="cos()"><!--input as of type button with vale given as cos and onclick value for java script-->
+                </div>
+                <div class="button"><!--declared class as button-->
+                    <input type="button" value="tan" onclick="tan()"><!--input as of type button with vale given as tan and onclick value for java script-->
+                </div>
+            </div>
+            <div class="line1"><!--declared class as line1-->
+                <div class="button"><!--declared class as button-->
+                   <input type="button" value="asin" onclick="asin()"><!--input as of type button with vale given as asin and onclick value for java script-->
+                </div>
+                 <div class="button"><!--declared class as button-->
+                    <input type="button" value="acos" onclick="acos()"><!--input as of type button with vale given as acos and onclick value for java script-->
+                </div>
+                <div class="button"><!--declared class as button-->
+                    <input type="button" value="atan" onclick="atan()"><!--input as of type button with vale given as atan and onclick value for java script-->
+                </div>
+            </div>
+            <div class="line1">
+                <div class="button"><!--declared class as button-->
+                <input type="button" value="sqr" onclick="sqr()"></div><!--input as of type button with vale given as sqr and onclick value for java script-->
+                <div class="button"><!--declared class as button-->
+                <input type="button" value="cube" onclick="cube()"></div><!--input as of type button with vale given as cube and onclick value for java script-->
+                <div class="button"><!--declared class as button-->
+                <input type="button" value="sqrt" onclick="sqrt()"><!--input as of type button with vale given as sqrt-->
+                </div>
+            </div>
+            <div class="line"><!--declared class as input-->
+                <input type="text" id="i2" ><!--taken the input as type text with id as i2-->
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
