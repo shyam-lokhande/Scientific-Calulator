@@ -1,0 +1,62 @@
+.preface{
+    display: flex;/*display as flex*/
+    flex-direction: row;/*given the direction of flex as row*/
+    justify-content: center;/*justified the content at center*/
+    align-items: center;/*aligned items at center*/
+    padding-top: 100px;/*given the padding of given value*/
+    background-color: #dde1e7;
+    padding-bottom: 300px;
+}
+.container{
+    width: 300px;/*width of the container is given*/
+    height: 300px;/*height of the container is given*/
+    display: flex;/*display as flex*/
+    flex-direction: row;/*given the direction of flex as row*/
+    justify-content: center;/*justified the content at center*/
+    align-items: center;/*aligned items at center*/
+    border-radius: 50px;/*given the border radius*/
+    background-color: #dde1e7;/*given the background colour to the container*/
+   box-shadow: 5px 5px 5px #000;/*given the box shdow,first shows width,second is height, third is blur and the colour*/
+}
+.line{
+    padding-top: 10px;/*given the padding of given value at top*/
+    padding-bottom: 10px;/*given the padding of given value from bottom*/
+    align-items: center;/*aligned items at center*/
+    text-align: center;/*text aligned at center*/
+   
+}
+.line1{
+    padding-left: 10px;/*given the padding of given value from left*/
+    padding-right: 10px;/*given the padding of given value from right*/
+    padding-top: 10px;/*given the padding of given value from top*/
+    display: flex;/*display as flex*/
+    justify-content: center;/*justified the content at center*/
+    align-items: center;/*aligned items at center*/
+    text-align: center;/*text aligned at center*/
+}
+input{
+    border-radius: 10px;/*given the radios to border*/
+    text-align: center;/*text aligned at center*/
+    align-items: center;/*aligned items at center*/
+    background-color: #dde1e7;/*background colour is given*/
+    cursor: pointer;/*cursor changes to pointer after taking on it*/
+    padding-right: 5px;/*given the padding of given value at right side*/
+    box-shadow: 2px 2px  #000;/*given the box shdow,first shows width,second is height, third is blur and the colour*/
+}
+.container:hover{
+    background-color: rgba(156, 161, 153, 0.788);/*given the background colour to the container*/
+    box-shadow: inset 5px 3px  #000;/*given the box shdow,first shows width,second is height, third is blur and the colour*/
+    padding-right: 5px;/*given the padding of given value from right*/
+    padding-left: 5px;/*given the padding of given value from left*/
+}
+input:hover{
+    background-color: rgba(189, 156, 106, 0.555);/*given the background colour to the container*/
+    box-shadow: inset 5px 3px  #000;/*given the box shdow,first shows width,second is height, third is blur and the colour*/
+    padding-right: 5px;/*given the padding of given value from right*/
+    padding-left: 5px;/*given the padding of given value from left*/
+    
+}
+.button{
+    padding-left: 5px;/*given the padding of given value from left*/
+    padding-right: 5px;/*given the padding of given value from right*/
+}
